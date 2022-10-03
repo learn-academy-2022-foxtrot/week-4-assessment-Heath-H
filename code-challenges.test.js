@@ -122,12 +122,12 @@ const netVotes = (obj) => {
 //const dataArray2 = ["string", "null", "Boolean", "string", "undefined"]
 // // Expected output: ["array", "object", "number", "string", "Boolean", "null", "undefined"]
 
-describe("noDupArray", () => {
+describe("noDupArrray", () => {
     it("takes in two arrays as arguements and returns one array with no duplicate values.", () => {
         const dataArray1 = ["array", "object", "number", "string", "Boolean"]
         const dataArray2 = ["string", "null", "Boolean", "string", "undefined"]
 
-        expect(noDupArray(dataArray1, dataArray2)).toEqual(["array", "object", "number", "string", "Boolean", "null", "undefined"])
+        expect(noDupArrray(dataArray1, dataArray2)).toEqual(["array", "object", "number", "string", "Boolean", "null", "undefined"])
     })
 })
 
@@ -150,3 +150,5 @@ const noDupArray = (arr1, arr2) => {
 // Time:        0.147 s, estimated 1 s
 // Ran all test suites.
 // ✨  Done in 0.71s.
+
+///////
